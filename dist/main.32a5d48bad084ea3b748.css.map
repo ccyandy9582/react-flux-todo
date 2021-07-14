@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://hello-webpack/./src/index.css"],"names":[],"mappings":"AAAA;IACI,uBAAuB;AAC3B;AACA;IACI,wBAA+C;CAClC;IACb,EAAY;AAChB","file":"main.32a5d48bad084ea3b748.css","sourcesContent":["h1 {\n    background-color: azure;\n}\n#img {\n    background-image: url('../public/download.gif');\n    height: 226px;\n    width: 500px;\n}"],"sourceRoot":""}

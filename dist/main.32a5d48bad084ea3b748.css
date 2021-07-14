@@ -1,0 +1,13 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+h1 {
+    background-color: azure;
+}
+#img {
+    background-image: url(28baf9d87dd31afdbb65.gif);
+    height: 226px;
+    width: 500px;
+}
+
+/*# sourceMappingURL=main.32a5d48bad084ea3b748.css.map*/
