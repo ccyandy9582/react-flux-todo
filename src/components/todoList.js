@@ -26,8 +26,7 @@ class TodoList extends Component {
     })
   }
 
-  searchInputText = (event) => {
-    console.log(event.target.value)
+  onChangeSearchInput = (event) => {
     store.dispatch(changeSearchInput(event.target.value))
   }
 
@@ -36,8 +35,10 @@ class TodoList extends Component {
   }
 
   addOnClick = (event) => {
-    store.dispatch(addTodo(event.target.value))
-    store.dispatch(changeTodoInput(""))
+    if (this.state.todoInputText) {
+      store.dispatch(addTodo(this.state.todoInputText))
+      store.dispatch(changeTodoInput(""))
+    }
   }
 
   render() {
