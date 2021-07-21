@@ -1,4 +1,4 @@
-# what is Flux?
+# What is Flux?
 Flux is a mode that implement the single data flow application structure. It included 4 core part:
 ## Dispatcher
 Dispatcher responsibible for deliver the Action and Payload to Store. The Store must be regist on dispatcher. Each application should be own one Dispatcher.
@@ -15,7 +15,7 @@ View according to component, it monitors the change event from the Store.
 3. According to the designed logic, Store changes the state and send the change event.
 4. View(component) recieve the change event, then update and re-render the ui.
 -----------
-# what is Redux
+# What is Redux
 Redux is a extension of the Flux, it provides a predictable container for managing state. It optimse the complexity of the Flux but also keep the Flux structure. The four main different between Redux and Flux as below:
 ## Add Reducer
 Change the state which in Store depends on the Action must be using Reducer. It decides the state how to react with the user behavior.
