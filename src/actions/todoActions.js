@@ -6,9 +6,10 @@ import { ADD_TODO, CHANGE_TODO_INPUT, CHANGE_SEARCH_INPUT } from "../reducers/in
  * @returns {type, text}
  */
 export function addTodo(text) {
-  return {
-    type: ADD_TODO,
-    text
+  return function (dispatch) {
+    setTimeout(() => {
+      dispatch({type: ADD_TODO, text})
+    }, 2000);
   }
 }
 
